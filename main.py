@@ -9,8 +9,7 @@ number_3 = int(input("Enter one more integer: "))
 print()
 
 # The Math
-total = (number_1 + number_2 + number_3)
-average = (total/3)
+average = ((number_1 + number_2 + number_3)/3)
 
 # The Output
 print("The average is: ", average, ".", sep="")
