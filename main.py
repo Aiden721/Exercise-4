@@ -16,4 +16,4 @@ total = (number_1 + number_2 + number_3)
 average = (total/3)
 
 # The Output
-print("The average is:",average)
+print(f"The average is: {average}.")
