@@ -9,4 +9,4 @@ int_three = int(input("Enter one more integer: "))
 print()
 
 # The Output
-print(f"The average is: {(int_one + int_two + int_three) / 3}.")
+print(f"The average is {(int_one + int_two + int_three) / 3}.")
