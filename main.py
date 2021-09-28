@@ -2,17 +2,11 @@
 # Date: 9/27/21
 # Description: Creating an input function that gives the average of three integers.
 
-# Import re
-import re
-
 # The Input
 number_1 = int(input("Enter an integer: "))
 number_2 = int(input("Enter another integer: "))
 number_3 = int(input("Enter one more integer: "))
-print(end="\n")
-
-# The Math
-average = ((number_1 + number_2 + number_3)/3)
+print()
 
 # The Output
-print("The average is: ", average, ".", sep="")
+print(f"The average is: {(number_1 + number_2 + number_3)/3}.")
